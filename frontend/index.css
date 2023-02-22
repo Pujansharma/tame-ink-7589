@@ -1,0 +1,157 @@
+#top {
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+#top>button {
+    height: 50px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: rgb(255, 213, 0);
+}
+
+#top>h1 {
+    font-size: 50px;
+}
+
+#top>h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#mid1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+#mid1 img {
+    width: 100%;
+    height: 500px;
+}
+
+#mid1>div>img:hover {
+
+    transform: scale(0.95);
+
+}
+
+#mid2 {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mid2>div:nth-child(1) {
+    background-color: rgb(255, 183, 0);
+    height: 300px;
+    font-size: 20px;
+}
+
+#mid2>div:nth-child(2) {
+    background-color: rgb(224, 183, 77);
+    height: 100%;
+    font-size: 20px;
+}
+
+#mid2>div:nth-child(3) {
+    background-color: rgb(224, 202, 146);
+
+    height: 100%;
+    font-size: 20px;
+}
+
+#mid2>div:nth-child(4) {
+    background-color: rgb(234, 223, 202);
+    /* width: 25%; */
+    height: 100%;
+    font-size: 20px;
+}
+
+#mid2>div>button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#mid3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 80pxpx;
+}
+
+#midc1 {
+    width: 24%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#midc2 {
+    width: 24%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#midc3 {
+    width: 24%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#midc4 {
+    width: 24%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#hed {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#mid4 {
+    text-align: center;
+}
+
+#mid4>div button {
+    background-color: rgb(255, 213, 0);
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#bot {
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    background-color: rgb(239, 226, 138);
+}
+
+#div1 {
+    padding-top: 40px;
+}
+
+#bot>div button {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(255, 213, 0);
+}
+
+#it1 {
+    width: 700px;
+    height: 50px;
+    border: 1px solid red;
+    font-size: 20px;
+
+}
