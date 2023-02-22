@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Navbar</title>
+    <style>
+        /* #container {
+            background-color: rgb(245, 245, 245);
+            padding: 20px 0px;
+        } */
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            border: solid black 1px;
+            align-items: center;
+            padding: 20px 45px;
+
+        }
+
+        #right {
+            display: flex;
+            gap: 30px;
+            font-size: 17px;
+        }
+
+        #left {
+            display: flex;
+            gap: 30px;
+            font-weight:bold;
+            font-size: 15px;
+            font-style:inherit;
+        }
+
+        #btn1 {
+            width: 100px;
+            height: 50px;
+            font-size: 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        #btn1:hover {
+            background-color: rgb(255, 213, 0);
+        }
+
+        #btn2 {
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: rgb(255, 213, 0);
+        }
+
+        #btn2:hover {
+            background-color: rgba(235, 235, 235, 0.879);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="left">
+                <div id ="prod">
+                    <span id="prod">Products</span>
+                </div>
+
+                <div>
+                    <span id="res">Resources</span>
+                </div>
+                <div>
+                    <span id="inp">Inspiration</span>
+                </div>
+                <div>
+                    <span id="prc">Pricing</span>
+                </div>
+            </div>
+            <div id="mid">
+                <div>
+                    </span>Logo</span>
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <span style="padding-left: 80px;">Sales:</span>
+                    <br>
+                    <span>+1(800) 315-5939</span>
+                </div>
+                <div>
+                    <i class="fa fa-globe" style="font-size:36px"></i>
+                </div>
+                <div>
+                    <i class="fa fa-search" style="font-size:36px"></i>
+                </div>
+                <div>
+                    <button id="btn1">Log In</button>
+                </div>
+                <div>
+                    <button id="btn2">Sign In</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let products = document.getElementById('prod')
+    products.addEventListener('mouse')
+</script>
