@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top{
+            display: flex;
+           
+            
+        }#login_img{
+            /* border: 1px solid red;
+            height: 100px;
+            width: 60%; */
+            height: 100%;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        #container {
+            background-color: black;
+            width: 100%;
+            height: 40px;
+            color: white;
+            text-align: center;
+           
+        }
+
+        #topisde {
+
+            padding: 12px 0px;
+            font-size: 18px;
+        }
+
+        
+
+        #singin-login {
+
+            width: 40%;
+            height: 550px;
+            /* margin: auto; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           
+
+        }
+
+        #singin {
+            /* font-size: 35px; */
+            /* margin-left: 180px; */
+            /* padding-top: 60px; */
+            margin-bottom: 25px;
+            /* text-align: center; */
+            margin-left: 10px;
+            margin-bottom:lv3 ;
+           text-transform:none;
+           /* font-family: "Means Web",Georgia,Times,"Times New Roman",serif; */
+            font-family: "cursive";
+            font-size: 50px;
+        }.insta{
+            width: 2%;
+            height: 30px;
+        }#main-fotter{
+            background-color: grey;
+            width: 100%;
+            height: 400px;
+            /* display: flex; */
+            /* justify-content: space-around; */
+            margin-top: 25px;
+          
+        }
+        
+
+        .acount {
+            margin-left: 17px;
+            margin-top: 10px;
+
+        }
+
+        #creatacc>a {
+            color: #007c89;
+
+        }#emailinput{
+            width: 350px;
+            height: 39px;
+            
+        }#input{
+            margin-left: 10px;
+            margin-top: 45px;
+        }#passinput{
+            width: 350px;
+            height: 39px;
+        }#forget{
+            margin-left: 143px;
+            color: #007c89;
+        }button{
+            width: 390px;
+            height: 50px;
+            margin-left: 5px;
+            margin-top: 25px;
+            color: white;
+            background-color: #007c89;
+            border: none;
+        }
+    </style>
+    <!-- class=" !margin-bottom-- " -->
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- this is the navbigation bar -->
+        <nav id="topisde"><b>Get a $60 Bonous Note !</b> Offer end november 20. Restrictions apply. apply now</nav>
+    </div>
+    <div id="top">
+        
+       
+        <div id="singin-login">
+            
+            <!-- this is singinpart -->
+            <p id="singin">Log In</p>
+            
+
+
+            <!-- this is crest account  -->
+
+            <p class="acount">Need a Mailchimp account?  <span id="creatacc"><a href="register.html">Creat an account.</a></span>
+            </p>
+            <div id="input">
+                <p><b>Username or Email</b></p>
+                <input id="emailinput" type="email">
+                <p><b>Password</b></p>
+                <input type="password" name="passinput" id="passinput">
+                <!-- <input id="passinput" type="password"> -->
+                
+            </div>
+            <p id="forget"><a href="">Forget Password</a></p>
+            
+            <br>
+                <div id="btn"><button>Sing In</button></div>
+                
+            
+
+        </div>
+
+        <div id="login_img">
+            <img src="https://cdn-images.mailchimp.com/billboards/phpza0iJx.jpeg" alt="">
+        </div>
+           
+ 
+
+
+</body>
+
+</html>
+<script>
+    
+      let btn=document.querySelector("#btn");
+     btn.addEventListener("click",function (){
+        let email=document.querySelector("#emailinput").value;
+        let password=document.querySelector("#passinput").value;
+        if(email==localStorage.getItem("item") && password==localStorage.getItem("itemcart")){
+            alert("Log in succesfull")
+
+
+        }else{
+            alert("incorrect password")
+        }
+        
+    });
+
+
+
+</script>
